@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Copa Slider - Copadex</title>
+
+    <link rel="shortcut icon" href="src/imagens/bola-de-futebol.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/logo catar.png" alt="logo catar" class="catar"/>
+      <h1 class="titulo">Copadex Cauã</h1>
+    </header>
+
+    <main class="selecao-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-times">
+
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Alemanha</h2>
+            
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/alemanha.png" alt="Alemanha" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+            <p class="texto"> Ataque </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel meio-campo"class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Arábia Saudita</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/arabia.png" alt="Arábia Saudita" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Argentina</h2>
+    
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/argentina.png" alt="Argentina" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+            <p class="texto"> Ataque </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Austrália</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/australia.png" alt="Austrália" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+      </li>
+      <li class="cartao fundo-1">
+        <div class="informacoes">
+          <h2 class="nome">Camarões</h2>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/camaroes.png" alt="Camarões" class="imagem-selecao"/>
+        </div>
+
+        <div class="descricao">
+         <p class="texto"> Ataque </p>
+          <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+          <p class="texto"> meio campo </p>
+          <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+          <p class="texto"> defesa </p>
+          <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+        
+        </div>
+      </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Bélgica</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/belgica.png" alt="Bélgica" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Brasil</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/brasil.png" alt="Brasil" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Canadá</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/canada.png" alt="Canadá" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Catar</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/catar.png" alt="Catar" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Coréia do Sul</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/coreia.png" alt="Coréia do Sul" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Costa Rica</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/costa.png" alt="Costa Rica" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Croácia</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/croacia.png" alt="Croácia" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Dinamarca</h2>
+          </div>
+  
+          <div class="container-imagem">
+            <img src="src/imagens/dinamarca.png" alt="Dinamarca" class="imagem-selecao"/>
+          </div>
+  
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Equador</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/equador.png" alt="Equador" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Espanha</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/espanha.png" alt="Espanha" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+      </li>
+      <li class="cartao fundo-1">
+        <div class="informacoes">
+          <h2 class="nome">Estados Unidos</h2>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/eua.png" alt="Estados Unidos" class="imagem-selecao"/>
+        </div>
+
+        <div class="descricao">
+         <p class="texto"> Ataque </p>
+          <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+          <p class="texto"> meio campo </p>
+          <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+          <p class="texto"> defesa </p>
+          <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+        
+        </div>
+      </li>
+      
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">França</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/franca.png" alt="França" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Gales</h2>
+          </div>
+  
+          <div class="container-imagem">
+            <img src="src/imagens/gales.png" alt="Gales" class="imagem-selecao"/>
+          </div>
+  
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Gana</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/gana.png" alt="Gana" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Holanda</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/holanda.png" alt="Holanda" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Inglaterra</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/inglaterra.png" alt="Inglaterra" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Irã</h2>
+          </div>
+  
+          <div class="container-imagem">
+            <img src="src/imagens/ira.png" alt="Irã" class="imagem-selecao"/>
+          </div>
+  
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Japão</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/japao.png" alt="Japão" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Marrocos</h2>
+          </div>
+  
+          <div class="container-imagem">
+            <img src="src/imagens/marrocos.png" alt="Marrocos" class="imagem-selecao"/>
+          </div>
+  
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">México</h2>
+          </div>
+  
+          <div class="container-imagem">
+            <img src="src/imagens/mexico.png" alt="México" class="imagem-selecao"/>
+          </div>
+  
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Polônia</h2>
+          </div>
+  
+          <div class="container-imagem">
+            <img src="src/imagens/polonia.png" alt="Polônia" class="imagem-selecao"/>
+          </div>
+  
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Portugal</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/portugal.png" alt="Portugal" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Senegal</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/senegal.png" alt="Senegal" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Sérvia</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/servia.png" alt="Sérvia" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Suíça</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/suica.png" alt="Suíça" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Tunísia</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/tunisia.png" alt="Tunísia class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/duas-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/tres-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+        <li class="cartao fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Uruguai</h2>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/uruguai.png" alt="Uruguai" class="imagem-selecao"/>
+          </div>
+
+          <div class="descricao">
+           <p class="texto"> Ataque </p>
+            <img src="src/imagens/cinco-estrelas.png" alt="nivel Ataque" class="imagem-nivel"/>
+            <p class="texto"> meio campo </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel meio-campo" class="imagem-nivel"/>
+            <p class="texto"> defesa </p>
+            <img src="src/imagens/quatro-estrelas.png" alt="nivel defesa" class="imagem-nivel"/>
+          
+          </div>
+        </li>
+
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>  
+  </body>
+</html>
